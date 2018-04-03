@@ -97,12 +97,10 @@
 		49D44A5420742EBB00B0880B /* Thriller */ = {
 			isa = PBXGroup;
 			children = (
-				49D44A5520742EBB00B0880B /* AppDelegate.swift */,
-				49D44A5720742EBB00B0880B /* ViewController.swift */,
-				49D44A5920742EBB00B0880B /* Main.storyboard */,
-				49D44A5C20742EBB00B0880B /* Assets.xcassets */,
-				49D44A5E20742EBB00B0880B /* LaunchScreen.storyboard */,
 				49D44A6120742EBB00B0880B /* Info.plist */,
+				49D44A8520742F8E00B0880B /* Controller */,
+				49D44A8420742F8900B0880B /* View */,
+				49D44A8320742F7B00B0880B /* Model */,
 			);
 			path = Thriller;
 			sourceTree = "<group>";
@@ -123,6 +121,32 @@
 				49D44A7720742EBB00B0880B /* Info.plist */,
 			);
 			path = ThrillerUITests;
+			sourceTree = "<group>";
+		};
+		49D44A8320742F7B00B0880B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		49D44A8420742F8900B0880B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				49D44A5C20742EBB00B0880B /* Assets.xcassets */,
+				49D44A5920742EBB00B0880B /* Main.storyboard */,
+				49D44A5E20742EBB00B0880B /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		49D44A8520742F8E00B0880B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				49D44A5520742EBB00B0880B /* AppDelegate.swift */,
+				49D44A5720742EBB00B0880B /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
