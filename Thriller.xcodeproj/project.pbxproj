@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49D44A5620742EBB00B0880B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D44A5520742EBB00B0880B /* AppDelegate.swift */; };
+		49D44A5820742EBB00B0880B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D44A5720742EBB00B0880B /* ViewController.swift */; };
+		49D44A5B20742EBB00B0880B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49D44A5920742EBB00B0880B /* Main.storyboard */; };
+		49D44A5D20742EBB00B0880B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49D44A5C20742EBB00B0880B /* Assets.xcassets */; };
+		49D44A6020742EBB00B0880B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49D44A5E20742EBB00B0880B /* LaunchScreen.storyboard */; };
+		49D44A6B20742EBB00B0880B /* ThrillerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D44A6A20742EBB00B0880B /* ThrillerTests.swift */; };
+		49D44A7620742EBB00B0880B /* ThrillerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D44A7520742EBB00B0880B /* ThrillerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49D44A6720742EBB00B0880B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49D44A4A20742EBB00B0880B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49D44A5120742EBB00B0880B;
+			remoteInfo = Thriller;
+		};
+		49D44A7220742EBB00B0880B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49D44A4A20742EBB00B0880B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49D44A5120742EBB00B0880B;
+			remoteInfo = Thriller;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49D44A5220742EBB00B0880B /* Thriller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thriller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49D44A5520742EBB00B0880B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49D44A5720742EBB00B0880B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49D44A5A20742EBB00B0880B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49D44A5C20742EBB00B0880B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49D44A5F20742EBB00B0880B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49D44A6120742EBB00B0880B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49D44A6620742EBB00B0880B /* ThrillerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThrillerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49D44A6A20742EBB00B0880B /* ThrillerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThrillerTests.swift; sourceTree = "<group>"; };
+		49D44A6C20742EBB00B0880B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49D44A7120742EBB00B0880B /* ThrillerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThrillerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49D44A7520742EBB00B0880B /* ThrillerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThrillerUITests.swift; sourceTree = "<group>"; };
+		49D44A7720742EBB00B0880B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49D44A4F20742EBB00B0880B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49D44A6320742EBB00B0880B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49D44A6E20742EBB00B0880B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49D44A4920742EBB00B0880B = {
+			isa = PBXGroup;
+			children = (
+				49D44A5420742EBB00B0880B /* Thriller */,
+				49D44A6920742EBB00B0880B /* ThrillerTests */,
+				49D44A7420742EBB00B0880B /* ThrillerUITests */,
+				49D44A5320742EBB00B0880B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49D44A5320742EBB00B0880B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49D44A5220742EBB00B0880B /* Thriller.app */,
+				49D44A6620742EBB00B0880B /* ThrillerTests.xctest */,
+				49D44A7120742EBB00B0880B /* ThrillerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49D44A5420742EBB00B0880B /* Thriller */ = {
+			isa = PBXGroup;
+			children = (
+				49D44A5520742EBB00B0880B /* AppDelegate.swift */,
+				49D44A5720742EBB00B0880B /* ViewController.swift */,
+				49D44A5920742EBB00B0880B /* Main.storyboard */,
+				49D44A5C20742EBB00B0880B /* Assets.xcassets */,
+				49D44A5E20742EBB00B0880B /* LaunchScreen.storyboard */,
+				49D44A6120742EBB00B0880B /* Info.plist */,
+			);
+			path = Thriller;
+			sourceTree = "<group>";
+		};
+		49D44A6920742EBB00B0880B /* ThrillerTests */ = {
+			isa = PBXGroup;
+			children = (
+				49D44A6A20742EBB00B0880B /* ThrillerTests.swift */,
+				49D44A6C20742EBB00B0880B /* Info.plist */,
+			);
+			path = ThrillerTests;
+			sourceTree = "<group>";
+		};
+		49D44A7420742EBB00B0880B /* ThrillerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49D44A7520742EBB00B0880B /* ThrillerUITests.swift */,
+				49D44A7720742EBB00B0880B /* Info.plist */,
+			);
+			path = ThrillerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49D44A5120742EBB00B0880B /* Thriller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49D44A7A20742EBB00B0880B /* Build configuration list for PBXNativeTarget "Thriller" */;
+			buildPhases = (
+				49D44A4E20742EBB00B0880B /* Sources */,
+				49D44A4F20742EBB00B0880B /* Frameworks */,
+				49D44A5020742EBB00B0880B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Thriller;
+			productName = Thriller;
+			productReference = 49D44A5220742EBB00B0880B /* Thriller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49D44A6520742EBB00B0880B /* ThrillerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49D44A7D20742EBB00B0880B /* Build configuration list for PBXNativeTarget "ThrillerTests" */;
+			buildPhases = (
+				49D44A6220742EBB00B0880B /* Sources */,
+				49D44A6320742EBB00B0880B /* Frameworks */,
+				49D44A6420742EBB00B0880B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49D44A6820742EBB00B0880B /* PBXTargetDependency */,
+			);
+			name = ThrillerTests;
+			productName = ThrillerTests;
+			productReference = 49D44A6620742EBB00B0880B /* ThrillerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49D44A7020742EBB00B0880B /* ThrillerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49D44A8020742EBB00B0880B /* Build configuration list for PBXNativeTarget "ThrillerUITests" */;
+			buildPhases = (
+				49D44A6D20742EBB00B0880B /* Sources */,
+				49D44A6E20742EBB00B0880B /* Frameworks */,
+				49D44A6F20742EBB00B0880B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49D44A7320742EBB00B0880B /* PBXTargetDependency */,
+			);
+			name = ThrillerUITests;
+			productName = ThrillerUITests;
+			productReference = 49D44A7120742EBB00B0880B /* ThrillerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49D44A4A20742EBB00B0880B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Sergio Gomes";
+				TargetAttributes = {
+					49D44A5120742EBB00B0880B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					49D44A6520742EBB00B0880B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 49D44A5120742EBB00B0880B;
+					};
+					49D44A7020742EBB00B0880B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 49D44A5120742EBB00B0880B;
+					};
+				};
+			};
+			buildConfigurationList = 49D44A4D20742EBB00B0880B /* Build configuration list for PBXProject "Thriller" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49D44A4920742EBB00B0880B;
+			productRefGroup = 49D44A5320742EBB00B0880B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49D44A5120742EBB00B0880B /* Thriller */,
+				49D44A6520742EBB00B0880B /* ThrillerTests */,
+				49D44A7020742EBB00B0880B /* ThrillerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49D44A5020742EBB00B0880B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D44A6020742EBB00B0880B /* LaunchScreen.storyboard in Resources */,
+				49D44A5D20742EBB00B0880B /* Assets.xcassets in Resources */,
+				49D44A5B20742EBB00B0880B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49D44A6420742EBB00B0880B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49D44A6F20742EBB00B0880B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49D44A4E20742EBB00B0880B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D44A5820742EBB00B0880B /* ViewController.swift in Sources */,
+				49D44A5620742EBB00B0880B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49D44A6220742EBB00B0880B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D44A6B20742EBB00B0880B /* ThrillerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49D44A6D20742EBB00B0880B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D44A7620742EBB00B0880B /* ThrillerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49D44A6820742EBB00B0880B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49D44A5120742EBB00B0880B /* Thriller */;
+			targetProxy = 49D44A6720742EBB00B0880B /* PBXContainerItemProxy */;
+		};
+		49D44A7320742EBB00B0880B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49D44A5120742EBB00B0880B /* Thriller */;
+			targetProxy = 49D44A7220742EBB00B0880B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49D44A5920742EBB00B0880B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49D44A5A20742EBB00B0880B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49D44A5E20742EBB00B0880B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49D44A5F20742EBB00B0880B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49D44A7820742EBB00B0880B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49D44A7920742EBB00B0880B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49D44A7B20742EBB00B0880B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GHS788KZ6G;
+				INFOPLIST_FILE = Thriller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pineapple.Thriller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49D44A7C20742EBB00B0880B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GHS788KZ6G;
+				INFOPLIST_FILE = Thriller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pineapple.Thriller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		49D44A7E20742EBB00B0880B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GHS788KZ6G;
+				INFOPLIST_FILE = ThrillerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pineapple.ThrillerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thriller.app/Thriller";
+			};
+			name = Debug;
+		};
+		49D44A7F20742EBB00B0880B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GHS788KZ6G;
+				INFOPLIST_FILE = ThrillerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pineapple.ThrillerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thriller.app/Thriller";
+			};
+			name = Release;
+		};
+		49D44A8120742EBB00B0880B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GHS788KZ6G;
+				INFOPLIST_FILE = ThrillerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pineapple.ThrillerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Thriller;
+			};
+			name = Debug;
+		};
+		49D44A8220742EBB00B0880B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GHS788KZ6G;
+				INFOPLIST_FILE = ThrillerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pineapple.ThrillerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Thriller;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49D44A4D20742EBB00B0880B /* Build configuration list for PBXProject "Thriller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49D44A7820742EBB00B0880B /* Debug */,
+				49D44A7920742EBB00B0880B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49D44A7A20742EBB00B0880B /* Build configuration list for PBXNativeTarget "Thriller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49D44A7B20742EBB00B0880B /* Debug */,
+				49D44A7C20742EBB00B0880B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49D44A7D20742EBB00B0880B /* Build configuration list for PBXNativeTarget "ThrillerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49D44A7E20742EBB00B0880B /* Debug */,
+				49D44A7F20742EBB00B0880B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49D44A8020742EBB00B0880B /* Build configuration list for PBXNativeTarget "ThrillerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49D44A8120742EBB00B0880B /* Debug */,
+				49D44A8220742EBB00B0880B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49D44A4A20742EBB00B0880B /* Project object */;
+}
